@@ -17,7 +17,7 @@ function Header() {
   <>
    <nav className='py-4 flex justify-between items-center'>
     <Link to ="/">
-    <h1 className='text-3xl font-bold text-[#FFD95A] mt-4 flex'>Tri<p className='text-[#FFF7D4] '>mmr</p></h1>
+    <h1 className='md:text-3xl  lg:text-3xl text-xl font-bold text-[#FFD95A] mt-4 flex '>Tri<p className='text-[#FFF7D4] '>mmr</p></h1>
     </Link>
     {!user?
     <Button onClick={ () => navigate("/auth")} >Login</Button>
