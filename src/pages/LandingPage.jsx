@@ -20,7 +20,7 @@ function LandingPage() {
    }
   return (
     <div className='flex flex-col items-center'>
-    <h2 className="my-10 sm:my-16 text-3xl sm:text-6xl lg:text-7xl text-[#176B87] text-center font-extrabold">
+    <h2 className="my-10 sm:my-16 text-4xl sm:text-6xl lg:text-7xl text-[#176B87] text-center font-extrabold">
     <h1 className='text-[#5B9A8B]'> Where long URLs</h1> meet their match!⚡️</h2>
 
     <form  className="sm:h-14 flex flex-col sm:flex-row w-full md:w-2/4 gap-2 m-10" onSubmit={handleShorten}>
