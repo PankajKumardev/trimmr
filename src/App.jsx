@@ -7,6 +7,7 @@ import Link from "./pages/Link"
 import RedirectLink from "./pages/RedirectLink"
 import UrlProvider from "./context"
 import RequireAuth from "./components/require-auth"
+import { Analytics } from "@vercel/analytics/react"
 const baseUrl = "https://trimmrr.vercel.app";
   const router = createBrowserRouter([
     {
@@ -47,6 +48,7 @@ function App() {
 
   return (
     <UrlProvider>
+      <Analytics/>
     <RouterProvider router={router}/>
     </UrlProvider>
   )
